@@ -26,6 +26,7 @@ void loop() {
   //where down returns 1, up returns 0
   val = digitalRead(11);
 
+  //checking to see if the state has changed
   if (val != (switchState % 2))
   {
     if (val == 0)
